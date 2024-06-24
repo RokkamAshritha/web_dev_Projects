@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Document</title> 
+	</head> 
+	<body> 
+		<p id="nums"></p> 
+		<script> 
+			let nums = document.getElementById("nums"); 
+			for (let num=0; num<=15; num++) {
+                if (num === 0) {
+                    //console.log(nums +  " is even");
+                    document.getElementById("nums").innerHTML += num  &nbsp; +  "is even"+ "<br>";
+                }
+                else if (num % 2 === 0) {
+                    //console.log(nums + " is even");   
+                    document.getElementById("nums").innerHTML += num  &nbsp; + "is even"+ "<br>";
+                }
+                else {
+                    //console.log(nums + " is odd");
+                    document.getElementById("nums").innerHTML += num  &nbsp; + "is odd"+ "<br>";
+                }
+            }
+			 
+		</script> 
+	</body> 
+</html> 

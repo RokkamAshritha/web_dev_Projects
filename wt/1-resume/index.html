@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Application from using HTML</title>
+</head>
+<form>
+    <fieldset>
+        <legend><h3>PERSONAL INFORMATION</h3>
+        </legend>
+        <img src= "D:\flutter\wt\1-resume\Firefly 20240317141859.png" alt="person" style="width:300px;height:228px";align="right"><br>
+        First name:
+        <input type="text" name="firstname" placeholder="Enter first name"required><br><br><br>
+        Last name:
+        <input type="text" name="lastname" placeholder="Enter last name" required><br><br>
+        Gender:
+        <input type="radio"name="gender"value="male">Male
+        <input type="radio"name="gender"value="female">Female<br><br><br>
+        Birthday:
+        <input type="datetime_local"name="bdaytime"><br><br><br>
+        Country:
+        <input list="country"name="country">
+        <datalist id="country">
+            <option value="India">
+<option value="Japan">
+<option value="Australia">
+<option value="United States">
+<option value="United Kingdom">
+</datalist>
+<br><br>
+E-Mail:
+<input type="email"name="email"><br><br>
+select your favorite color:
+<input type="color"name="favcolor"value="#ff0000"><br><br>
+Address:
+<br/><text area rows='5'cols='40'></textarea>
+</fieldset><br><br>
+<fieldset>
+<legend><h3>EDUCATIONAL DETAILS</h3></legend>
+Degree:
+<select name="degree">
+<option value="B.E">B.E</option>
+<option value="M.E">M.E</option>
+<option value="phd">phd</option>
+</select><br><br>
+Certified courses,any:
+<textarea rows='5'cols='40'></textarea>
+</fieldset>
+<br><br>
+<fieldset>
+<legebd><h3>WORK EXPERIENCE</h3></legend>
+Knowledge in:
+<input type="checkbox"name="HTML"value="HTML">HTML</input>
+<input type="checkbox"name=".NET"value=".NET">.NET
+<input type="checkbox"name="JAVA"value="JAVA">JAVA
+<input type="checkbox"name="PHP"value="PHP">PHP
+<br><br>
+Years of Experience:
+<input type="number"name="years"min="0"max="50"step="1"value="0">
+</feildset><br><br>
+<input type="submit"title="Enter the above details and click me"/>
+</form>
+</body>
+</html>

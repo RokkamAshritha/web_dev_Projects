@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text],select
+        {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type = submit]{
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            margin: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type = submit]:hover
+        {
+            background-color: #45a049;
+
+        }
+        div{
+            border-radius: 5px;
+            background-color: #ffff00;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        Using CSS to style an html form
+    </h3>
+    <div>
+        <form>
+            <label for="FName">First Name</label>
+            <input type="text" id="FName" name="First Name" placeholder="Your Name">
+            <label for="Country">Country</label>
+            <select id="Country" name="Country">
+                <option value="Australia">Australia</option>
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+            </select>
+            <input type="Submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
